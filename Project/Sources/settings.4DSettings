@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+	<com.4d>
+		<compiler>
+			<options compilation_path="3" target="all"/>
+			<typage default_for_button="2"/>
+			<method_suffix arrays="" interprocess_arrays="" interprocess_variables="" methods="" variables=""/>
+		</compiler>
+		<interface>
+			<shortcuts>
+				<accept_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<cancel_input_form alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+				<add_subform alt="false" command="false" ctrl="false" key_code="0" shift="false"/>
+			</shortcuts>
+		</interface>
+		<server>
+			<network>
+				<options publication_name="toggle-switch" publish_at_startup="false"/>
+			</network>
+		</server>
+		<general execute_host_database_event="true"/>
+	</com.4d>
+</preferences>

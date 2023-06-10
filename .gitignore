@@ -1,0 +1,22 @@
+﻿# Ignore invisible files/folders except .gitignore
+.*
+!.gitignore
+
+# Ignore data file
+DATA/
+
+# Ignore logs & trash
+Logs/
+Trash/
+
+# Ignore derived data except the Documentation
+DerivedData/
+
+# Ignore user preferences
+userPreferences.*/
+Preferences/
+Resources/php.ini
+Project/BuildSettings/BuildApp.xml
+
+Settings/4DPop/
+Settings/4DPop Explorer.json

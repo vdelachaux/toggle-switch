@@ -1,0 +1,1 @@
+(OBJECT Get pointer:C1124(Object named:K67:5; "toggle_2"))->:=Bool:C1537(Self:C308->)

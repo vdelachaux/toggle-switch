@@ -1,0 +1,116 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 127,
+					"left": 16,
+					"width": 307,
+					"height": 94,
+					"text": "Boolean"
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 16,
+					"width": 307,
+					"height": 94,
+					"text": "Numeric"
+				},
+				"toggle_1": {
+					"type": "subform",
+					"top": 57,
+					"left": 103,
+					"width": 41,
+					"height": 21,
+					"dataSourceTypeHint": "number",
+					"detailForm": "TOGGLE_SWITCH",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/toggle_1.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 57,
+					"left": 184,
+					"width": 40,
+					"height": 18,
+					"text": "On",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"toggle_2": {
+					"type": "subform",
+					"top": 174,
+					"left": 103,
+					"width": 41,
+					"height": 21,
+					"dataSourceTypeHint": "undefined",
+					"detailForm": "TOGGLE_SWITCH",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/toggle_2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 174,
+					"left": 184,
+					"width": 40,
+					"height": 18,
+					"text": "On",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 2,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
