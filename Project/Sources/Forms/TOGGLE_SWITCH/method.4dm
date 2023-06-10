@@ -1,5 +1,5 @@
 // ----------------------------------------------------
-// Form method : w_toggle_switch
+// Form method : TOGGLE_SWITCH
 // ID[9989B2AEC3484EE5BED219BB7FE37294]
 // Created 4-5-2017 by Vincent de Lachaux
 // ----------------------------------------------------
@@ -24,7 +24,7 @@ Case of
 		SET TIMER:C645(0)
 		
 		SVG GET ATTRIBUTE:C1056(*; "toggle"; "back"; "state"; $l)
-		SVG SET ATTRIBUTE:C1055(*; "toggle"; "back"; "fill"; Choose:C955(Is macOS:C1572; "dodgerblue"; Bool:C1537($l) ? "deepskyblue" : "white"))
+		SVG SET ATTRIBUTE:C1055(*; "toggle"; "back"; "fill"; Bool:C1537($l) ? (Is macOS:C1572 ? "dodgerblue" : "deepskyblue") : "white")
 		SVG SET ATTRIBUTE:C1055(*; "toggle"; "button"; "cx"; Bool:C1537($l) ? 30 : 10.5)
 		
 		//______________________________________________________

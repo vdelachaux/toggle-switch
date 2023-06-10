@@ -1,5 +1,5 @@
 // ----------------------------------------------------
-// Object method : w_toggle_switch.toggle
+// Object method : toggle
 // ID[86346C2061574365B3E489917850B77B]
 // Created 4-5-2017 by Vincent de Lachaux
 // ----------------------------------------------------
