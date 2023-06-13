@@ -1,1 +1,1 @@
-(OBJECT Get pointer:C1124(Object named:K67:5; "Check Box1"))->:=Num:C11(Self:C308->)
+(OBJECT Get pointer:C1124(Object named:K67:5; "Check Box1"))->:=Self:C308->

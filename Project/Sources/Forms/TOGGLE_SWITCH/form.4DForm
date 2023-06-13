@@ -6,6 +6,7 @@
 	"markerFooter": 21,
 	"events": [
 		"onLoad",
+		"onClick",
 		"onTimer",
 		"onBoundVariableChange"
 	],
@@ -22,8 +23,8 @@
 					"type": "input",
 					"top": 0,
 					"left": 0,
-					"width": 41,
-					"height": 21,
+					"width": 27,
+					"height": 15,
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"fill": "transparent",
@@ -32,9 +33,7 @@
 					"hideFocusRing": true,
 					"contextMenu": "none",
 					"dragging": "none",
-					"method": "ObjectMethods/toggle.4dm",
 					"events": [
-						"onLoad",
 						"onClick"
 					]
 				}
@@ -42,15 +41,15 @@
 		},
 		{
 			"objects": {
-				"Picture3": {
+				"poster": {
 					"type": "picture",
 					"top": 0,
 					"left": 0,
-					"width": 41,
-					"height": 21,
-					"visibility": "hidden",
+					"width": 27,
+					"height": 15,
+					"picture": "Images/poster.png",
 					"pictureFormat": "scaled",
-					"picture": "Images/Picture3.png"
+					"visibility": "hidden"
 				}
 			}
 		}
@@ -60,18 +59,9 @@
 		"defaultView": "View 1",
 		"views": {
 			"View 1": {},
-			"View 2": {},
-			"View 3": {},
-			"View 4": {},
-			"View 5": {},
-			"View 6": {},
-			"View 7": {},
-			"View 8": {},
 			"POSTER": {
-				"visible": false,
-				"selectable": false,
 				"objects": [
-					"Picture3"
+					"poster"
 				]
 			}
 		}
@@ -79,5 +69,6 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"geometryStamp": 20
 }

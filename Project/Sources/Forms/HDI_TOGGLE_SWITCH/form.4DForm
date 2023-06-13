@@ -7,8 +7,7 @@
 	"markerBreak": 220,
 	"markerFooter": 240,
 	"events": [
-		"onLoad",
-		"onTimer"
+		"onLoad"
 	],
 	"method": "method.4dm",
 	"pageFormat": {
@@ -40,8 +39,8 @@
 					"type": "subform",
 					"top": 57,
 					"left": 103,
-					"width": 41,
-					"height": 21,
+					"width": 27,
+					"height": 15,
 					"dataSourceTypeHint": "number",
 					"detailForm": "TOGGLE_SWITCH",
 					"focusable": false,
@@ -71,9 +70,9 @@
 					"type": "subform",
 					"top": 174,
 					"left": 103,
-					"width": 41,
-					"height": 21,
-					"dataSourceTypeHint": "undefined",
+					"width": 27,
+					"height": 15,
+					"dataSourceTypeHint": "boolean",
 					"detailForm": "TOGGLE_SWITCH",
 					"focusable": false,
 					"deletableInList": false,
@@ -96,12 +95,13 @@
 					"method": "ObjectMethods/Check Box1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				}
 			}
 		}
 	],
-	"geometryStamp": 2,
+	"geometryStamp": 30,
 	"$4d": {
 		"version": "1",
 		"kind": "form"
