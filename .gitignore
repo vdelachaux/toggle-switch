@@ -20,3 +20,4 @@ Project/BuildSettings/BuildApp.xml
 
 Settings/4DPop/
 Settings/4DPop Explorer.json
+Libraries/lib4d-arm64.dylib

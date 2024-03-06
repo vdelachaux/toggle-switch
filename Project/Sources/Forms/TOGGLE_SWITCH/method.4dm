@@ -25,7 +25,7 @@ Case of
 			If (Form:C1466.isDark)
 				
 				Form:C1466.off:={\
-					back: {fill: "dimgray"; stroke: "gray"}; \
+					back: {fill: "none"; stroke: "gray"}; \
 					toggle: {fill: "gainsboro"}\
 					}
 				
@@ -37,7 +37,7 @@ Case of
 			Else 
 				
 				Form:C1466.off:={\
-					back: {fill: "gainsboro"; stroke: "silver"}; \
+					back: {fill: "none"; stroke: "silver"}; \
 					toggle: {fill: "white"}\
 					}
 				
@@ -55,7 +55,7 @@ Case of
 			If (Form:C1466.isDark)
 				
 				Form:C1466.off:={\
-					back: {fill: "black"; stroke: "dimgray"}; \
+					back: {fill: "none"; stroke: "dimgray"}; \
 					toggle: {fill: "whitesmoke"}\
 					}
 				
@@ -67,7 +67,7 @@ Case of
 			Else 
 				
 				Form:C1466.off:={\
-					back: {fill: "whitesmoke"; stroke: "dimgray"}; \
+					back: {fill: "none"; stroke: "dimgray"}; \
 					toggle: {fill: "dimgray"}\
 					}
 				
